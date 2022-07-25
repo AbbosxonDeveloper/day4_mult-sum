@@ -1,0 +1,2 @@
+this is a JS file with function  mult that returns multiplication of two numbers 
+and function sum that returns sum sum of every character in mubers
