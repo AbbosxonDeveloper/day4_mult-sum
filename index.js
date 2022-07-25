@@ -29,11 +29,13 @@
 
 'birinchi'
 let mult = (a, b) => {
-    if (b == 0) return 0
-    return a + mult(a, b - 1)
+    a = Math.floor(a)
+    b = Math.floor(b)
+    if (!b) return 0
+    return Math.floor(a + mult(a, b - 1))
 }
 
-console.log(mult(3, 2));
+console.log(mult(5.5, 2.2));
 
 
 'ikkinchi'

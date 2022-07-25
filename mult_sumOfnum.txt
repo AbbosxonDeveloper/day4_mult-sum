@@ -1,2 +1,4 @@
 this is a JS file with function  mult that returns multiplication of two numbers 
 and function sum that returns sum sum of every character in mubers
+
+change : mult function da float sonlarni kopaytirsa , errorga duch kelar edi , buni fix qildim
